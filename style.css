@@ -1,0 +1,55 @@
+.carousel {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    backface-visibility: hidden;
+    transition: transform 0.4s ease-in-out;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-item img {
+    display: block;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url(/img/colibries.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.text-column h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.text-column p {
+    align-items: center;
+    color: black;
+    line-height: 1.6;
+    text-align: center;
+}
