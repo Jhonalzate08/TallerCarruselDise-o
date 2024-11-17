@@ -1,8 +1,20 @@
+body {
+    background-image: url(fondo.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
 .carousel {
     margin: 0 auto;
     max-width: 800px;
     padding: 20px;
     position: relative;
+    width: 200%;
 }
 
 .carousel-inner {
@@ -27,18 +39,11 @@
 
 .carousel-item img {
     display: block;
-    width: 600px;
-    height: 600px;
+    width: 700px;
+    height: 700px;
     margin: 0 auto;
     object-fit: cover;
     border-radius: 10px;
-}
-
-body {
-    background-color: black;
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
 
 .text-column h2 {
